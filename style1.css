@@ -1,0 +1,156 @@
+body{
+    background-color: aquamarine;    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+    background-color: rgba(57, 162, 254);
+    color: white;
+    height: 120px;
+}
+
+main
+{
+    background-color: white;
+    font-family:Arial, sans-serif;
+    border: 4px solid rgb;
+    border-top: 0;
+    margin:auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 40%;
+    box-shadow: 2px 2px 5px ;
+}
+
+nav a{
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    text-align: center;
+    height: 170px;
+    width: 150px;
+    border: 2px solid rgb(255, 191, 0);
+    background-color: rgba(57, 162, 254);
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+ul {
+    padding: 5px;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#navbar {
+    display:inline
+}
+
+.hero{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 7px;
+    top: -60px;
+    width: 50%;
+    z-index: 1;
+}
+
+.bikini{
+    background-color: steelblue;
+    margin: 0;
+    border: 0;
+ }
+
+
+img{
+    width: 100%;
+    z-index: -1;
+}
+
+.about{
+    color: skyblue;
+    text-align: left;
+}
+
+.des{
+    color: skyblue;
+    text-align: right;
+}
+
+.travel{
+    color: skyblue;
+    text-align: left;
+}
+
+.author{
+    color: skyblue;
+    text-align: right;
+}
+
+.related{
+    color: skyblue;
+    text-align: right;
+}
+
+.satu{
+    text-align: left;
+    color: black;
+}
+
+.dua{
+    text-align: right;
+    color: black;
+}
+
+.sidebar-image{
+    width: 60%;
+    height: auto;
+    margin: 0;
+}
+
+.sidebar-left{
+    padding : 20px;
+    padding-top: 10px;
+    text-align: left;
+    color : black;
+}
+
+.image-caption{
+    width: 40%;
+    height: auto;
+    background-color: rgb(228, 228, 228);
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+footer {
+    background-color: rgba(57, 162, 254);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
